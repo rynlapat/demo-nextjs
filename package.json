@@ -1,0 +1,51 @@
+{
+  "name": "performance-test-with-auth0",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth0/auth0-react": "^2.2.1",
+    "@auth0/auth0-spa-js": "^2.1.2",
+    "@auth0/nextjs-auth0": "^2.7.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "@material-tailwind/react": "^2.1.1",
+    "@mui/material": "^5.14.6",
+    "@types/node": "20.5.6",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "auth0": "^3.6.1",
+    "auth0-js": "^9.22.1",
+    "autoprefixer": "10.4.15",
+    "axios": "^1.5.0",
+    "cloudinary": "^1.40.0",
+    "date-fns": "^2.30.0",
+    "dotenv": "^16.3.1",
+    "eslint": "8.47.0",
+    "eslint-config-next": "13.4.19",
+    "multer": "^1.4.5-lts.1",
+    "next": "13.4.19",
+    "next-cloudinary": "^4.20.0",
+    "next-images": "^1.8.5",
+    "postcss": "8.4.28",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sweetalert2": "^11.7.28",
+    "swr": "^2.2.2",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.2.2"
+  },
+  "browser": {
+    "fs": false
+  },
+  "devDependencies": {
+    "@types/multer": "^1.4.7"
+  }
+}
